@@ -1,0 +1,612 @@
+/* =========================================================
+Template Name: Water Drop HTML 5 Template
+Template URI: https://asifjalil.xyz/water-drop
+Description: Water Drop HTML 5 Template
+Author: Asif Jalil
+Author URI: https://asifjalil.xyz
+Version: 1.0
+========================================================= */
+
+/* CSS Index
+-----------------------------------------------------
+01. Template Default CSS
+02. header css
+03. about CSS
+04. service CSS
+05. work CSS
+06. feature CSS
+07. blog CSS
+08. footer CSS
+
+
+
+
+*/
+
+/* ======================================================
+Google Fonts
+====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ...............................................
+01. Template Default CSS
+............................................... */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control {
+  outline: 0;
+  box-shadow: none;
+}
+
+.section-padding-top {
+  padding-top: 110px;
+}
+
+.section-padding-bottom {
+  padding-bottom: 110px;
+}
+
+
+/* ==================================================
+Author's Custom Styles
+================================================== */
+
+/* ...............................................
+02. header css
+............................................... */
+header {
+  background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/bg-intro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-menu {
+  color: #fff;
+}
+
+.logo {
+  background: #F7A30A;
+  padding: 15px 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.call {
+  font-size: 17px;
+  margin-left: 12px;
+}
+
+.nav-menu ul li {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 14px;
+}
+
+.home-intro {
+  padding: 140px 0;
+}
+
+.home-intro-content h5 {
+  color: #F7A30A;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.home-intro-content h1 {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.home-intro-content p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 38px;
+}
+
+.home-intro-content button {
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 22px;
+}
+
+.lrn-btn {
+  background-color: #F7A30A;
+  position: relative;
+  z-index: 1
+}
+
+.lrn-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  transition: .3s;
+  z-index: -1;
+  border-radius: 3px;
+}
+
+.lrn-btn:hover:before {
+  width: 100%;
+}
+
+.lrn-btn:hover {
+  color: black;
+}
+
+.ctc-btn {
+  border: 2px solid #F7A30A;
+  position: relative;
+  z-index: 1;
+}
+
+.ctc-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  transition: .3s;
+  z-index: -1;
+}
+
+.ctc-btn:hover:before {
+  width: 100%;
+}
+
+.ctc-btn:hover {
+  color: black;
+  border: 2px solid #fff;
+}
+
+/* ...............................................
+03. about CSS
+............................................... */
+.section-title h3 {
+  font-size: 40px;
+  color: #111;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.section-title span {
+  color: #F7A30A;
+}
+
+.section-title h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.section-title p {
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.about {
+  position: relative;
+  z-index: 1;
+}
+
+.about:before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  background: #F7A30A;
+  padding: 120px 0 120px 0;
+  z-index: -1;
+}
+
+.about-full {
+  background: #fff;
+  padding: 0 30px 30px;
+}
+
+.about-content {
+  padding-right: 10px;
+}
+
+.about-content p {
+  padding-top: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #343434;
+  line-height: 26px;
+}
+
+.about-content ul li {
+  display: block;
+  padding: 0 0 10px 30px;
+  position: relative;
+  cursor: inherit;
+}
+
+.about-content ul li:before {
+  content: "\f00c";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+
+.about-img {
+  padding-left: 20px;
+}
+
+/* ...............................................
+04. service CSS
+............................................... */
+.service .section-title p {
+  margin-bottom: 70px;
+}
+
+.service {
+  background: #f5f3fd;
+}
+
+.service-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.171);
+}
+
+.service-item i {
+  color: #F7A30A;
+  font-size: 52px;
+}
+
+.service-item h4 {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #111;
+  text-transform: capitalize;
+  margin: 25px 0 20px 0;
+}
+
+.service-item p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+}
+
+#architect,
+#architect i,
+#architect h4,
+#architect p {
+  background: #F7A30A;
+  color: #fff;
+}
+
+/* ...............................................
+05. work CSS
+............................................... */
+.work .section-title {
+  background: #111;
+  padding: 100px 0 40px 0;
+}
+
+.work .section-title h3,
+.work .section-title p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.work-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  display: table;
+}
+
+.work-item-1 {
+  background-image: url(../img/work/work1.jpg);
+}
+
+.work-item-2 {
+  background-image: url(../img/work/work2.jpg);
+}
+
+.work-item-3 {
+  background-image: url(../img/work/work3.jpg);
+}
+
+.work-item-4 {
+  background-image: url(../img/work/work4.jpg);
+}
+
+.work-item-5 {
+  background-image: url(../img/work/work5.jpg);
+}
+
+.work-item-6 {
+  background-image: url(../img/work/work6.jpg);
+}
+
+.work-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background: #F7A30A;
+  transition: .3s linear;
+  opacity: 0;
+}
+
+.work-item:hover .work-content {
+  opacity: 1;
+}
+
+/* ...............................................
+06. feature CSS
+............................................... */
+.feature .section-title {
+  margin-bottom: 60px;
+}
+
+.feature-intro h4 {
+  font-size: 24px;
+  color: #111;
+}
+
+.feature-intro p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+  margin-bottom: 50px;
+}
+
+.feature-list {
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  float: left;
+  margin-right: 30px;
+}
+
+.feature-icon i {
+  font-size: 30px;
+  color: #F7A30A;
+  height: 65px;
+  width: 65px;
+  line-height: 65px;
+  background: #021D38;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.feature-details h5 {
+  font-size: 20px;
+}
+
+.feature-img {
+  width: 85%;
+  margin-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-img:before {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 55px;
+  height: 100%;
+  width: 100%;
+  background: #F7A40A;
+  z-index: -1;
+}
+
+/* ...............................................
+07. blog CSS
+............................................... */
+.blog {
+  background: #F5F3FD;
+}
+
+.blog .section-title {
+  margin-bottom: 60px;
+}
+
+.blog-item {
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+
+}
+
+.blog-img-wrapper {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.blog-img {
+  background: #F7A30A;
+  background-size: cover;
+  background-position: center;
+  height: 235px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.blog-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.171);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.blog-item:hover .blog-img:before {
+  opacity: 1;
+}
+
+.blog-item:hover .blog-img {
+  transform: rotate(-3deg) scale(1.1);
+}
+
+.blog-img-1 {
+  background-image: url(../img/blog/blog3.jpg);
+}
+
+.blog-img-2 {
+  background-image: url(../img/blog/blog2.jpg);
+}
+
+.blog-img-3 {
+  background-image: url(../img/blog/blog1.jpg);
+}
+
+.blog-details {
+  padding: 35px 30px 20px 30px;
+}
+
+.blog-details h4 {
+  font-size: 20px;
+  color: #111;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.blog-details h4:hover {
+  color: #F7A30A;
+}
+
+.blog-details span {
+  font-size: 15px;
+  color: #777;
+}
+
+.blog-details p {
+  margin-top: 20px;
+  color: #343434;
+}
+
+/* ...............................................
+08. footer CSS
+............................................... */
+.footer {
+  background: #03203B;
+}
+
+.footer-logo {
+  color: #F7A30A;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-col {
+  padding-bottom: 120px;
+}
+
+.footer-col p {
+  font-size: 15px;
+  color: #bbb;
+  margin-top: 15px;
+  line-height: 26px;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.footer-col ul li {
+  font-size: 15px;
+  color: #bbb;
+  margin-top: 15px;
+  display: table;
+}
+
+.footer-col ul li a:hover {
+  color: #F7A30A;
+}
+
+.footer-col ul li i {
+  padding-right: 15px;
+  float: left;
+  margin-right: 15px;
+  display: table-cell;
+}
+
+.footer-col ul li p {
+  display: table-cell;
+}
+
+.copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  color: #fff;
+}
+
+
+
+/* ...............................................
+07. blog CSS
+............................................... */
